@@ -10,12 +10,12 @@ namespace Tyuiu.KolesnikovMN.Sprint3.Task0.V21.Test
         {
             DataService ds = new DataService();
 
-            double a = 1.5;
+            double a = 1.50;
             int startValue = 1;
             int stopValue = 13;
 
             var res = ds.GetSumSeries(a, startValue, stopValue);
-            double wait = -63.8;
+            double wait = -63.727;
 
             Assert.AreEqual(wait, res);
         }

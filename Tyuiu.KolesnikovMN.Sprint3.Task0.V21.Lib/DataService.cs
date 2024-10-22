@@ -7,10 +7,10 @@ namespace Tyuiu.KolesnikovMN.Sprint3.Task0.V21.Lib
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
             double sumSeries = 0;
-
-            for (int i = startValue; i <= stopValue; i++)
+            int k = startValue;
+            for (; k < stopValue + 1; k++)
             {
-                sumSeries += (Math.Pow(value, i) + (1 / 4)) * Math.Sin(i);
+                sumSeries += (Math.Pow(value, k) + 0.25) * Math.Sin(k);
             }
             return Math.Round(sumSeries, 3);
         }
