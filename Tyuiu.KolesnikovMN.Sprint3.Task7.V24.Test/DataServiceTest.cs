@@ -19,15 +19,16 @@ namespace Tyuiu.KolesnikovMN.Sprint3.Task7.V24.Test
             res = ds.GetMassFunction(startValue, stopValue);
 
             valueWaitArray[0] = 7.83;
-            valueWaitArray[1] = 6.21;
+            valueWaitArray[1] = 6.22;
             valueWaitArray[2] = 6.36;
             valueWaitArray[3] = 6.96;
-            valueWaitArray[4] = 3;
-            valueWaitArray[5] = 3;
-            valueWaitArray[6] = 3;
-            valueWaitArray[7] = 3;
-            valueWaitArray[8] = 3;
-            valueWaitArray[9] = 3;
+            valueWaitArray[4] = -0.52;
+            valueWaitArray[5] = 0;
+            valueWaitArray[6] = -3.3;
+            valueWaitArray[7] = -5.53;
+            valueWaitArray[8] = -6.25;
+            valueWaitArray[9] = -6.63;
+            valueWaitArray[10] = -8.24;
 
             CollectionAssert.AreEqual(valueWaitArray, res);
         }
