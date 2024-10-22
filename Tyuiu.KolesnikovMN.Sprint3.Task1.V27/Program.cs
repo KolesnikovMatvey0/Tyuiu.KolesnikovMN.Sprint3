@@ -35,7 +35,7 @@ namespace Tyuiu.KolesnikovMN.Sprint3.Task1.V27
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine($"Сумма ряда = {ds.GetMultiplySeries(n, startValue, stopValue)}");
+            Console.WriteLine($"Произведение ряда = {ds.GetMultiplySeries(n, startValue, stopValue)}");
             Console.ReadKey();
         }
     }
