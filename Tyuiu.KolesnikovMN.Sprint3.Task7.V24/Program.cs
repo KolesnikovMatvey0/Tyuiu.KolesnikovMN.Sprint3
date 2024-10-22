@@ -33,7 +33,7 @@ namespace Tyuiu.KolesnikovMN.Sprint3.Task7.V24
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine($"Сумма ряда = {ds.Calculate(startValue, stopValue)}");
+            Console.WriteLine($"Сумма ряда = {ds.GetMassFunction(startValue, stopValue)}");
             Console.ReadKey();
         }
     }
