@@ -12,7 +12,7 @@ namespace Tyuiu.KolesnikovMN.Sprint3.Task7.V24.Test
             int startValue = -5;
             int stopValue = 5;
 
-            int len = (stopValue - startValue);
+            int len = (stopValue - startValue) + 1;
             double[] valueWaitArray = new double[len];
 
             double[] res = new double[len];
